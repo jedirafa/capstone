@@ -45,20 +45,6 @@ shinyUI(navbarPage("Data Science Capstone",
                                     ),
                                     column(3)
                             )
-                   ),
-                   
-
-                   ## Tab 2 - About 
-                   
-                   tabPanel("About",
-                            fluidRow(
-                                    column(2,
-                                           p("")),
-                                    column(8,
-                                           includeMarkdown("./about/about.md")),
-                                    column(2,
-                                           p(""))
-                            )
                    )
                   
 )
